@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* min-height: calc(100vh - 60px); */
+    /* overflow-y: hidden; */
+}
+
+.hero,
+.footer {
+    background-color: #1f2937;
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    color: #f9faf8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.hero,
+.footer,
+.sec1,
+.sec2,
+.sec3,
+.footer {
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.header-content {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.toplinks,
+.toplinks ul {
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.toplinks ul,
+.secondary-text {
+    font-size: 18px;
+    list-style-type: none;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+button {
+    width: 150px;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 10px 30px;
+    color: #e5e7eb;
+    border-radius: 5px;
+}
+
+button,
+.sec3 {
+    background-color: #3882f6;
+}
+
+.sec1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    margin: auto;
+    max-width: 200px;
+}
+
+.sec1 img {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882f6;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.sec2 {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: italic;
+    color: #1f2937;
+}
+
+.sec2,
+.sec3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.sec3 {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 45px auto;
+    border-radius: 10px;
+    color: #e5e7eb;
+}
+
+.sec3text {
+    text-align: left;
+}
+
+.sec3 button {
+    border: 2px solid #e5e7eb
+}
